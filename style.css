@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    width: 60%;
+    margin: 70px auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    line-height: 50px;
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .temperature {
+    font-size: 18px;
+  }
+  
