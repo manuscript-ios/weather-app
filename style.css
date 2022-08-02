@@ -23,9 +23,24 @@ body {
     list-style: none;
     font-size: 16px;
     font-weight: 600;
+  }  
+  
+  .weather-temperature strong {
+    color: black;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 400;
   }
   
-  .temperature {
-    font-size: 18px;
+  .weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -30px;
+  }
+  
+  .weather-temperature .active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
   }
   
