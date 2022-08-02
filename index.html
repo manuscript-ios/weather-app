@@ -12,7 +12,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Weather App</title>
+    <title>🧭 Weather App</title>
   </head>
 
   <body>
@@ -26,6 +26,7 @@
               class="form-control"
               id="searchCity"
               placeholder="Search city"
+              autocomplete="off"
             />
           </div>
 
@@ -45,20 +46,20 @@
       </div>
     </div>
 
-    <h1 id="city">
-      
-    </h1>
+    <div class="overview">
+    <h1 id="city"></h1>
     <ul>
-      <li id="date"></li>
+      <li>Last updated: <span id="date"></span></li>
       <li id="description"></li>
     </ul>
+   </div>
 
     <div class="row">
       <div class="col-6">
-        <div class="mostlyClear">
+        <div class="relevant weather-temperature">
           <img
             src=""
-            alt="Mostly Sunny Day"
+            alt="Clear"
             id="icon"
             class="weather-icon"
           />
