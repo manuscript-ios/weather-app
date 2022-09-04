@@ -3,10 +3,7 @@ body {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     width: 60%;
     margin: 70px auto;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 50px;
-  }
+      }
   
   h1 {
     font-size: 32px;
@@ -29,7 +26,12 @@ body {
     text-decoration: none;
     cursor: default;
 }
-  
+  .container{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 50px;
+  }
+
   .weather-temperature strong {
     color: black;
     font-size: 50px;
